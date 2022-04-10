@@ -1,0 +1,10 @@
+[submodule "library/rp-pico"]
+	path = library/rp-pico
+	url = https://github.com/ncarandini/KiCad-RP-Pico
+[submodule "library/marbastlib"]
+	path = library/marbastlib
+	url = https://github.com/ebastler/marbastlib
+	branch = untested
+[submodule "library/keyswitches"]
+	path = library/keyswitches
+	url = https://github.com/perigoso/keyswitch-kicad-library
