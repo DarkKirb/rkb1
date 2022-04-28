@@ -1,0 +1,9 @@
+{
+  "rust-analyzer.checkOnSave.allTargets": false,
+  "rust-analyzer.cargo.target": "thumbv6m-none-eabi",
+  "rust-analyzer.checkOnSave.target": "thumbv6m-none-eabi",
+  "rust-analyzer.cargo.unsetTest": [
+    "core",
+    "rkb1-firmware"
+  ],
+}
