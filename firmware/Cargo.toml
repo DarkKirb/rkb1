@@ -19,6 +19,10 @@ rp-pico = "0.3.0"
 usb-device = "0.2.8"
 usbd-serial = "0.1.1"
 usbd-hid = "0.5.2"
+pio = "0.2.0"
+pio-proc = "0.2.1"
+critical-section = "0.2.7"
+lock_api = "0.4.7"
 
 # cargo build/run
 [profile.dev]
@@ -26,7 +30,7 @@ codegen-units = 1
 debug = 2
 debug-assertions = true
 incremental = false
-opt-level = 3
+#opt-level = 3
 overflow-checks = true
 
 # cargo build/run --release

@@ -25,7 +25,8 @@
           picotool
           elf2uf2-rs
           probe-run
-          flip-link
+          ripgrep
+          cargo-embed
           (rust-bin.selectLatestNightlyWith (toolchain: toolchain.default.override {
             extensions = [ "rust-src" ];
             targets = [ "thumbv6m-none-eabi" ];

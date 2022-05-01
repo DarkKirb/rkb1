@@ -1,0 +1,17 @@
+.program matrix
+; INPUT: repeated bit pattern
+; 0000_0100_0000_1000_0001_0000_0010_0000_0100_0000_1000_0001_0000_0000_0000_0000
+; So, like: 0x0408_1020, 0x4081_0000
+loop:
+  pull ifempty [31]
+  ; Assert the column pins
+  out pins, 6 [31]
+  ; Read the row pins
+  in pins, 5 [31]
+  ; Check if we are done, if not loop
+  out x, 2 [31]
+  jmp !x, loop [31]
+  ; Output the two missing bits and push
+  in null, 2 [31]
+  push [31]
+  out x, 16 [31] ; we still have 16 bits left, discard them
