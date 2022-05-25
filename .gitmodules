@@ -8,3 +8,6 @@
 [submodule "library/keyswitches"]
 	path = library/keyswitches
 	url = https://github.com/perigoso/keyswitch-kicad-library
+[submodule "library/ssd1306"]
+	path = library/ssd1306
+	url = https://github.com/pforrmi/KiCad-SSD1306-128x64

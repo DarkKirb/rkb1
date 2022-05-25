@@ -6,5 +6,6 @@
   (lib (name "Switch_Keyboard_Hotswap_Kailh")(type "KiCad")(uri "${KIPRJMOD}/../library/keyswitches/library/footprints/Switch_Keyboard_Hotswap_Kailh.pretty")(options "")(descr ""))
   (lib (name "Switch_Keyboard_Hybrid")(type "KiCad")(uri "${KIPRJMOD}/../library/keyswitches/library/footprints/Switch_Keyboard_Hybrid.pretty")(options "")(descr ""))
   (lib (name "Switch_Keyboard_Kailh")(type "KiCad")(uri "${KIPRJMOD}/../library/keyswitches/library/footprints/Switch_Keyboard_Kailh.pretty")(options "")(descr ""))
-  (lib (name "Symbols")(type "KiCad")(uri "/home/darkkirb/sources/keyboard/library/Symbols.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "/home/darkkirb/sources/rkb1/library/Library.pretty")(options "")(descr ""))
+  (lib (name "ssd1306")(type "KiCad")(uri "${KIPRJMOD}/../library/ssd1306/library/SSD1306.pretty")(options "")(descr ""))
 )

@@ -18,7 +18,7 @@ use rp_pico::{
 /// each 6 bit field is a power of two, in order:
 /// 1, 2, 4, 8, 16, 32
 #[link_section = ".data"]
-static MATRIX_SCAN_INPUT: [u32; 2] = [0x0408_0120, 0x4081_0000];
+static MATRIX_SCAN_INPUT: [u32; 2] = [0x0102_0408, 0x1020_0000];
 
 pub struct MatrixScanner {
     sm: StateMachine<PIO0SM0, Running>,
